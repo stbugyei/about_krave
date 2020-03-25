@@ -1,4 +1,3 @@
-//import React, { Component } from "react";
 import React from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 //import Banner from "./components/banner";
@@ -32,26 +31,3 @@ function App() {
 
 export default App
 
-/*
-class App extends Component {
-
-  render() {
-    return (
-      <div className='head'>
-        <div className='container'>
-          <div className='wrapper'>
-            <Router>
-              <Navbar /> 
-              <Route path="/whyWeDo" component={WhyWeDo}></Route>
-              <Route path="/whatWeDo" component={WhatWeDo}></Route>
-              <Route path="/careers" component={Careers}></Route>
-              <Route path="/press" component={Press}></Route>
-              <Footer/>
-            </Router>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
- */
