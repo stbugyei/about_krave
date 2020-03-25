@@ -6,10 +6,9 @@ import WhyWeDo from "./components/whyWeDo";
 import WhatWeDo from "./components/whatWeDo";
 import Careers from "./components/careers";
 import Navbar from "./components/navBar";
-import Footer from "./components/footer";
 import Press from "./components/press";
+import Footer from "./components/footer";
 import "./App.css";
-
 
 
 function App() {
