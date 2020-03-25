@@ -1,0 +1,549 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+  min-height: auto;
+}
+
+.container {
+width: 1170px;
+margin: 0 auto;
+}
+
+.text-link {
+  color: #65cfa2;
+  text-decoration: none;
+}
+
+.text-link:hover{
+  color: #65cfa2;
+  text-decoration: none;
+}
+
+.text-link1 {
+  font-weight: bold;
+   color: #00FF00;
+   text-decoration: none;
+ }
+
+ .text-link1:hover {
+  font-weight: bold;
+   color: #00FF00;
+   text-decoration: none;
+ }
+
+ .text-link2 {
+   color: rgb(30, 31, 30);
+   text-decoration: none;
+ }
+
+ .text-link2:hover{
+  color: rgb(30, 31, 30);
+  text-decoration: none;
+ }
+
+
+/* ========== styling for WHYWEDO ======== */
+
+.whywedo_wrapper,
+.whatwedo_wrapper,
+.careers_wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 120px auto;
+}
+
+.whywedo_firstsection{
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+padding: 0px 50px;
+}
+
+.whywedo_title{
+  font-size: 28px;
+  padding: 0 0 25px;
+  font-weight: bold;
+}
+
+.whywedo_firstsection-subtitle{
+  font-size: 12px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.whywedo_firstsection-text{
+  font-size: 12px;
+  margin: 0 0 15px;
+}
+
+
+.whywedo_secondsection{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.whywedo_secondsection_title{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 10px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+
+.whywedo_secondsection-subtitle{
+  font-size: 12px;
+  margin: 25px 0 25px;
+  font-weight: bold;
+}
+
+.whywedo_secondsection-text{
+  font-size: 12px;
+  margin: 0 0 15px;
+}
+
+.whywedo_secondsection-img{
+  margin: 10px 0 15px;
+  text-align: center;
+}
+
+.whywedo_secondsection-imgtext{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+.whywedo_firstsection-italictext{
+  font-size: 12px;
+  font-style: italic;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.whywedo_thirdsection{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.whywedo_thirdsection_title{
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0 0 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.whywedo_thirdsection-subtitle{
+  font-size: 12px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.whywedo_thirdsection-text{
+  font-size: 12px;
+  margin: 0 0 15px;
+}
+
+.whywedo_img3{
+  margin-top: 40px;
+}
+
+.whywedo_thirdsection-subtitle1{
+  font-size: 12px;
+  margin: 25px 0 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.whywedo_thirdsection-text1{
+  font-size: 12px;
+  margin: 0 142px 15px;
+  text-align: center;
+}
+
+/* ========== styling for WHATWEDO ======== */
+
+.whatwedo-subtitle_italic{
+  font-size: 12px;
+  text-align: left;
+  font-style: italic;
+  margin: 15px 0 10px;
+  font-weight: bold;
+}
+
+.whatwedo-subtitle_italic1{
+  font-size: 12px;
+  text-align: left;
+  font-style: italic;
+  margin: 0px 0 48px;
+}
+
+.whatwedo-subtitle{
+  font-size: 12px;
+  text-align: left;
+  margin: 25px 0 10px;
+  font-weight: bold;
+}
+
+.whatwedo-subtitle1{
+  font-size: 12px;
+  text-align: left;
+  margin: 15px 0 15px;
+}
+
+.whatwedo-text{
+  font-size: 12px;
+  text-align: left;
+  margin: 0 0 15px;
+  margin: 5px 0 15px;
+}
+
+.whatwedo-text1{
+  font-size: 12px;
+  text-align: left;
+  margin: 5px 0 15px;
+}
+
+.whatwedo-subtitle2{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin: 15px 0 15px;
+}
+
+.whatwedo-subtitle3{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin: 15px 0 0px;
+}
+
+.whatwedo_img1{
+  width: 492px;
+}
+
+/* ========== styling for CAREERS ======== */
+
+.careers{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0px 50px;
+  }
+  
+  .careers_title{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 0 25px;
+    text-align: center;
+  }
+
+.careers-subtitle{
+  font-size: 12px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.careers-text{
+  font-size: 12px;
+  margin: 0 0 15px;
+}
+
+.careers-text1{
+  font-size: 12px;
+  margin: 40px 0 50px;
+}
+
+.careers-text2{
+  font-size: 12px;
+  margin: 30px 0 15px;
+}
+
+.careers-text1_bold{
+  font-weight: bold;
+}
+
+.careers_img1{
+  width: 500px;
+}
+
+/* ========== styling for PRESS ======== */
+
+.press_wrapper{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+ /* margin: 50px auto;*/
+}
+
+.press_title{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 25px;
+  text-align: left;
+}
+
+.press_firstsection{
+margin: auto 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.press_firstsection-text{
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.press_firstsection-img{
+ width: 750px;
+ margin: 0 0 0 40px;
+}
+
+.press_img1{
+  width: 100%;
+}
+
+.press_img2{
+  border: 1px solid #9b9b9b;
+  width: 223px;
+ 
+}
+.press-img2_text{
+  font-size: 12px;
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.press_secondsection{
+  width: 89%;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 50px 0px 40px;
+  text-align: center;
+ }
+
+ .press_thirdsection{
+  width: 89%;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+
+.press_thirdsection_nested{
+  text-align: center;
+  width: 225px;
+ /* padding: 10px;*/
+  margin: 0px 50px 55px 50px;
+}
+.press_fourthsection{
+  width: 89%;
+  display: flex;
+  justify-content: space-around;
+  background: #f3f3f3
+}
+
+.press_fourthsection-about{
+  width: 25%;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px 30px 55px 30px;
+}
+
+.press_fourthsection-myself{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px 30px 0px 30px;
+}
+
+
+.press_fourthsection-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.press_fourthsection-download{
+    border: 1px solid #9b9b9b;
+    background: white;
+    padding: 10px;
+    margin: 5px 50px;
+    font-size: 12px;
+}
+
+/* ========== styling for BANNER ======== */
+
+.banner_img{
+  width: 60px;
+  margin-top: 8px;
+  }
+
+  .navbar {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-dark{
+    background: #ffffff;
+  }
+  a.nav-link{
+    color: #000000;
+  }
+
+  a.nav-link:hover{
+    color: #000000;
+  }
+
+.dropdown-menu.show {
+  display: none;
+  position: absolute;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  clear: both;
+  color: gray;
+  background-color: #ffffff;
+  border: none;
+  z-index: 4;
+  left: 0;
+  top: 50px;
+}
+
+/* ========== styling for NAVBAR ======== */
+
+.navbar_wrapper{
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_img{
+  width: 60px;
+  margin-top: 8px;
+  }
+
+.navbar_first-section{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar_first-section1{
+  position: relative;
+  display: inline-block;
+}
+
+.navbar_first-sectitem{
+  margin: 0px 20px 0px 0px;
+  padding: 10px;
+}
+
+.navbar_second-section{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar_second-sectitem{
+  font-size: 10px;
+}
+
+.navbar_btn {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px 35px;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  background: #ffffff;
+}
+
+.dropdown-content {
+  position: absolute;
+  visibility: hidden;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  clear: both;
+  color: gray;
+  background-color: #ffffff;
+  border: none;
+  z-index: 4;
+  left: 40px;
+  top: 35px;
+  opacity: 0;
+  transition-property: opacity, visibility;    transition-duration: .4s, 0s;
+  transition-delay: 0s, .4s;
+}
+
+.aboutLink {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block; 
+}
+
+.aboutLink:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar_first-section1:hover
+.dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s, 0s;
+}
+
+
+
+/* ========== styling for FOOTER ======== */
+
+.footer_wrapper{
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0px;
+  padding: 8px 0px;
+}
