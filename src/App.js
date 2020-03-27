@@ -17,7 +17,7 @@ function App() {
         <div className='wrapper'>
           <Router>
             <Navbar /> 
-            <Route path="/whyWeDo" component={WhyWeDo}></Route>
+            <Route path="/" component={WhyWeDo}></Route>
             <Route path="/whatWeDo" component={WhatWeDo}></Route>
             <Route path="/careers" component={Careers}></Route>
             <Route path="/press" component={Press}></Route>
