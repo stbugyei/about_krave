@@ -1,3 +1,3 @@
 # about_krave
- A clone of krave website
+ A replica of krave website made with React.js (practicing routes) 
 https://about-krave.netlify.com/
